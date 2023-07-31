@@ -1,6 +1,9 @@
 import express from 'express';
+import { connectToDB } from './config/mongoConnection.js';
 
 const app = express();
+
+connectToDB();
 
 app.get('/', (request, response) => response.send('My first response'));
 
