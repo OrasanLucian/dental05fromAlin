@@ -1,0 +1,18 @@
+.navbar-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+}
+
+.ul-navbar {
+	list-style-type: none;
+	display: flex;
+	gap: 10px;
+	font-size: 20px;
+	color: white;
+}
+
+.ul-navbar a {
+	text-decoration: none;
+}

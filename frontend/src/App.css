@@ -1,0 +1,10 @@
+.app {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link {
+	color: #fff;
+}
+.link:hover {
+	color: #00f;
+}
