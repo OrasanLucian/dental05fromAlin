@@ -7,7 +7,7 @@ export const Appointment = () => {
 	const [date, setDate] = useState('');
 	const [phone, setPhone] = useState('');
 
-	const appointmentURL = 'https://dental05.onrender.com/api/appointments';
+	const appointmentURL = 'https://dentalclinic-ppqd.onrender.com/api/appointments';
 	const handleSubmit = async () => {
 		const body = { name, issue, date, phone };
 
