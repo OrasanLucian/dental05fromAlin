@@ -8,7 +8,7 @@
 		"build": "npm install",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"dev": "nodemon server",
-		"start": "node server"
+		"start": "node index.js"
 	},
 	"author": "Alin Grigorescu",
 	"license": "ISC",
