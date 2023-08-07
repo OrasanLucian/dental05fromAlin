@@ -9,7 +9,7 @@ export const ServicesCard = () => {
 
 	const getServices = async () => {
 		const services = await axios.get(
-			'https://dentalclinic-ppqd.onrender.com'
+			'https://dentalclinic-ppqd.onrender.com/api/services'
 		);
 
 		let serviceCategories = [];
