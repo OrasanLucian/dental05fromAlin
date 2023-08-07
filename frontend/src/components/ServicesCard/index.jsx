@@ -8,7 +8,9 @@ export const ServicesCard = () => {
 	const [isError, setIsError] = useState(false);
 
 	const getServices = async () => {
-		const services = await axios.get('http://localhost:5500/api/services');
+		const services = await axios.get(
+			'https://dental05.onrender.com/api/services'
+		);
 
 		let serviceCategories = [];
 
