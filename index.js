@@ -11,7 +11,7 @@ connectToDB();
 
 app.use(cors());
 const options = {
-	origin: ['http://127.0.0.1:5173', 'https://dental05.onrender.com'],
+	origin: ['http://127.0.0.1:5173', 'https://dentalclinic-ppqd.onrender.com'],
 };
 app.use(cors(options));
 
