@@ -9,13 +9,12 @@ const app = express();
 
 connectToDB();
 
-// app.get('/', (request, response) => response.send('My first response'));
-
 app.use(cors());
 const options = {
 	origin: ['http://127.0.0.1:5173', 'https://dental05.onrender.com'],
 };
 app.use(cors(options));
+
 app.use('/api/services', serviceRouter);
 app.use('/api/appointments', appointmentRouter);
 

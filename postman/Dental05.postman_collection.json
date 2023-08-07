@@ -12,12 +12,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5500/api/services",
-					"protocol": "http",
+					"raw": "https://dental05.onrender.com/api/services",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"dental05",
+						"onrender",
+						"com"
 					],
-					"port": "5500",
 					"path": [
 						"api",
 						"services"
@@ -33,7 +34,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"serviciul 4\",\r\n    \"category\": \"Categoria 1\",\r\n    \"price\": 200\r\n}",
+					"raw": "{\r\n    \"name\": \"serviciul 26\",\r\n    \"category\": \"Categoria 3\",\r\n    \"price\": 200\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -41,15 +42,67 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5500/api/services",
-					"protocol": "http",
+					"raw": "https://dental05.onrender.com/api/services",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"dental05",
+						"onrender",
+						"com"
 					],
-					"port": "5500",
 					"path": [
 						"api",
 						"services"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Appointments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dental05.onrender.com/api/appointments",
+					"protocol": "https",
+					"host": [
+						"dental05",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"appointments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add new appointment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Alin\",\r\n    \"issue\": \"Am o durere urgenta de masea\",\r\n    \"date\": \"2 august\",\r\n    \"phone\": \"0734 123 232\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dental05.onrender.com/api/appointments",
+					"protocol": "https",
+					"host": [
+						"dental05",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"appointments"
 					]
 				}
 			},

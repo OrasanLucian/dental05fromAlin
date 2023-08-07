@@ -9,8 +9,8 @@ const jsonParser = bodyParser.json();
 
 router.get('/', async (request, response) => {
 	try {
-		const services = await AppointmentModel.find();
-		response.status(200).json(services);
+		const appointments = await AppointmentModel.find();
+		response.status(200).json(appointments);
 	} catch (error) {
 		console.error(error);
 		response.status(500).send('Server error');
